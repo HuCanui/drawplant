@@ -1,5 +1,6 @@
 //apply plugin: 'com.android.application'
 apply plugin: 'com.android.library'
+apply plugin: 'maven'
 
 android {
     compileSdkVersion 23
@@ -31,4 +32,16 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.2.1'
     compile 'com.google.code.gson:gson:2.8.0'
+}
+
+uploadArchives{
+    repositories.mavenDeployer {
+        def mavenRepositoryPath = file(getProperty('aar.drawplant'))
+        repository(url: "file://${mavenRepositoryPath.absolutePath}")
+        pom.project{
+            groupId "com.hucanhui.drawplant"
+            artifactId "drawplant"
+            version 1.0
+        }
+    }
 }
