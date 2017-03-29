@@ -1,0 +1,1 @@
+include ':app', ':doodles', ':brush', ':fingerpaint', ':finaldesign', ':drawplant', ':vgandroid', ':touchvg'

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/drawroot">"
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >         
+        <LinearLayout
+            android:id = "@+id/drawmiddle"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <com.hucanhui.finaldesign.view.DrawView
+                xmlns:android="http://schemas.android.com/apk/res/android"  
+                android:id = "@+id/drawview"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent" >    
+            </com.hucanhui.finaldesign.view.DrawView>
+        </LinearLayout>
+        <include layout="@layout/toolbarup"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id = "@+id/drawbottom"
+            android:layout_alignParentBottom="true">
+	        <include layout="@layout/toolbarbottom"/>
+	        <FrameLayout
+	            android:layout_width="fill_parent"
+                android:layout_height="wrap_content"  
+                android:background="@drawable/drawbottombar">
+                <include layout="@layout/markerpic"/>
+	            <include layout="@layout/crayonpic"/>
+	            <include layout="@layout/colorpic"/>
+	            <include layout="@layout/stamppenpic"/>
+	            <include layout="@layout/backgroundpic"/>
+	            <include layout="@layout/eraserpic"/>
+	            <include layout="@layout/stickerpic"/> 
+	            <include layout="@layout/geometrypic"/>
+	            <include layout="@layout/picpic"/>
+	            <include layout="@layout/wordpic"/>
+	        </FrameLayout>
+	    </LinearLayout>
+	</RelativeLayout>
+</LinearLayout>

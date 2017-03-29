@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id = "@+id/browselist"
+    android:orientation="vertical">
+    <RelativeLayout     
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >   
+        <android.support.v4.view.ViewPager
+            android:id="@+id/browseviewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60px"
+            android:id = "@+id/browsetop"
+            android:layout_alignParentTop="true"
+            android:background="#ff000000"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id ="@+id/browsebackbtn"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/browsebackbtnx">
+            </ImageButton>
+            <ImageButton
+                android:id ="@+id/browseeditbtn"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/browseeditbtnx">                    
+            </ImageButton>
+            <ImageButton
+                android:id ="@+id/browsesharebtn"
+                 android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/browsesharebtnx">
+            </ImageButton>
+            <ImageButton
+                android:id ="@+id/browsedeletebtn"
+                 android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/browsedeletebtnx">                    
+            </ImageButton>           
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60px"
+            android:id = "@+id/browsebottom"
+            android:layout_gravity="center"
+            android:layout_alignParentBottom="true"
+            android:background="#ff000000"
+            android:orientation="horizontal">
+        </LinearLayout>
+    </RelativeLayout>
+ </LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none" >
+        <LinearLayout
+			    android:layout_width="wrap_content"
+			    android:layout_height="60px"
+			    android:layout_marginTop="10px"
+			    android:layout_marginBottom="10px"			    
+			    android:orientation="horizontal">	
+		 <ImageView 
+	         android:layout_width="40px"
+	         android:layout_height="40px"      
+	         android:layout_gravity="center"     
+	         android:src="@drawable/arrow_left">
+	     </ImageView>  
+	     <ImageView 
+	         android:id ="@+id/drawcasualmarkerbtn"
+	         android:layout_width="80px"
+	         android:layout_height="40px"      
+	         android:layout_gravity="center"     
+	         android:src="@drawable/drawcasualmarkerbtn">
+	     </ImageView>     
+	     <ImageView 
+	         android:id ="@+id/drawcasualcrayonbtn"
+	         android:layout_width="80px"
+	         android:layout_height="40px" 
+	         android:layout_gravity="center"          
+	         android:src="@drawable/drawcasualcrayonbtn">
+	     </ImageView>   
+	     <ImageView 
+	         android:id ="@+id/drawcasualcolorbtn"
+	         android:layout_width="80px"
+	         android:layout_height="40px"   
+	         android:layout_gravity="center"         
+	         android:src="@drawable/drawcasualcolorbtn">
+	     </ImageView>
+	     <ImageView 
+	         android:id ="@+id/drawgraphicbtn"
+	         android:layout_width="80px"
+	         android:layout_height="40px" 
+	         android:layout_gravity="center"        
+	         android:src="@drawable/drawgraphicbtn">
+	     </ImageView>	    
+	     <ImageView 
+	         android:id ="@+id/stamppenbtn"
+	         android:layout_width="80px"
+	         android:layout_height="40px"   
+	         android:layout_gravity="center"       
+	         android:src="@drawable/stamppenbtn">
+	     </ImageView>
+	     <ImageView 
+	         android:id ="@+id/drawbackgroundbtn"
+	         android:layout_width="80px"
+	         android:layout_height="40px"  
+	         android:layout_gravity="center"         
+	         android:src="@drawable/drawbackgroundbtn">
+	     </ImageView>
+	     <ImageView 
+	         android:id ="@+id/stickerbtn"
+	         android:layout_width="80px"
+	         android:layout_height="40px"   
+	         android:layout_gravity="center"        
+	         android:src="@drawable/drawstickerbtn">
+	     </ImageView>
+	     <ImageView 
+	         android:id ="@+id/draweraserbtn"
+	         android:layout_width="80px"
+	         android:layout_height="40px"  
+	         android:layout_gravity="center"         
+	         android:src="@drawable/draweraserbtn">
+	     </ImageView> 
+	     <ImageView 
+	         android:id ="@+id/drawpicbtn"
+	         android:layout_width="80px"
+	         android:layout_height="40px"
+	         android:layout_gravity="center"           
+	         android:src="@drawable/drawpicbtn">
+	     </ImageView>  
+	     <ImageView 
+	         android:id ="@+id/drawwordsbtn"
+	         android:layout_width="80px"
+	         android:layout_height="40px"  
+	         android:layout_gravity="center"         
+	         android:src="@drawable/drawwordsbtn">
+	     </ImageView>
+	     <ImageView 
+	         android:layout_width="40px"
+	         android:layout_height="40px"      
+	         android:layout_gravity="center"     
+	         android:src="@drawable/arrow_right">
+	     </ImageView>
+	 </LinearLayout> 
+</HorizontalScrollView>

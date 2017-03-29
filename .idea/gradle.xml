@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$USER_HOME$/Library/Android/gradle-3.5-rc-2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/brush" />
+            <option value="$PROJECT_DIR$/doodles" />
+            <option value="$PROJECT_DIR$/drawplant" />
+            <option value="$PROJECT_DIR$/finaldesign" />
+            <option value="$PROJECT_DIR$/fingerpaint" />
+            <option value="$PROJECT_DIR$/touchvg" />
+            <option value="$PROJECT_DIR$/vgandroid" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/brush" />
+            <option value="$PROJECT_DIR$/doodles" />
+            <option value="$PROJECT_DIR$/drawplant" />
+            <option value="$PROJECT_DIR$/finaldesign" />
+            <option value="$PROJECT_DIR$/fingerpaint" />
+            <option value="$PROJECT_DIR$/touchvg" />
+            <option value="$PROJECT_DIR$/vgandroid" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

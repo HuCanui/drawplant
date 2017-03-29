@@ -1,0 +1,492 @@
+ <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:id = "@+id/crayonlist"
+	        android:layout_gravity="bottom">
+
+			<LinearLayout
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:paddingBottom="4dp"
+			    android:orientation="horizontal">
+			    
+			      <ImageView
+				  android:id="@+id/crayon01"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon01"></ImageView>
+			      
+				  <ImageView
+				  android:id="@+id/crayon02"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon02"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon03"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon03"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon04"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon04"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon05"
+				  android:layout_width="30dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon05"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon06"
+				  android:layout_width="32dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon06"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon07"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon07"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon08"
+				  android:layout_width="30dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon08"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/crayon09"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon09"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/crayon10"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon10"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/crayon11"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon11"></ImageView>
+			      
+				  <ImageView
+				  android:id="@+id/crayon12"
+				  android:layout_width="30dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon12"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon13"
+				  android:layout_width="30dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon13"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon14"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon14"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon15"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon15"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon16"
+				  android:layout_width="30dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon16"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon17"
+				  android:layout_width="30dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon17"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon18"
+				  android:layout_width="30dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon18"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/crayon19"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon19"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/crayon20"
+				  android:layout_width="30dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon20"></ImageView>
+	
+				  <ImageView
+				  android:id="@+id/crayon21"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon21"></ImageView>
+			      
+				  <ImageView
+				  android:id="@+id/crayon22"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon22"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon23"
+				  android:layout_width="30dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon23"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon24"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon24"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon25"
+				  android:layout_width="30dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon25"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon26"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon26"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon27"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon27"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon28"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon28"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/crayon29"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon29"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/crayon30"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon30"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/crayon31"
+				  android:layout_width="30dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon31"></ImageView>
+			      
+				  <ImageView
+				  android:id="@+id/crayon32"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon32"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon33"
+				  android:layout_width="29dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon33"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon34"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon34"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon35"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon35"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon36"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon36"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon37"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon37"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon38"
+				  android:layout_width="30dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon38"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/crayon39"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon39"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/crayon40"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon40"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/crayon41"
+				  android:layout_width="30dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon41"></ImageView>
+			      
+				  <ImageView
+				  android:id="@+id/crayon42"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon42"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon43"
+				  android:layout_width="29dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon43"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon44"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon44"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon45"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon45"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon46"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon46"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon47"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon47"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon48"
+				  android:layout_width="33dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon48"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/crayon49"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon49"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/crayon50"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon50"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/crayon51"
+				  android:layout_width="30dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon51"></ImageView>
+			      
+				  <ImageView
+				  android:id="@+id/crayon52"
+				  android:layout_width="30dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon52"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon53"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon53"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon54"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon54"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon55"
+				  android:layout_width="30dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon55"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon56"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon56"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon57"
+				  android:layout_width="30dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon57"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon58"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon58"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/crayon59"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon59"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/crayon60"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon60"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/crayon61"
+				  android:layout_width="32dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon61"></ImageView>
+			      
+				  <ImageView
+				  android:id="@+id/crayon62"
+				  android:layout_width="32dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon62"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon63"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon63"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon64"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon64"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon65"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon65"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon66"
+				  android:layout_width="32dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon66"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon67"
+				  android:layout_width="31dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon67"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/crayon68"
+				  android:layout_width="43dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/crayon68"></ImageView>
+				  
+			
+	        </LinearLayout>
+         </HorizontalScrollView>
+ 

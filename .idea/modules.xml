@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/brush/brush.iml" filepath="$PROJECT_DIR$/brush/brush.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doodles/doodles.iml" filepath="$PROJECT_DIR$/doodles/doodles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drawboard.iml" filepath="$PROJECT_DIR$/drawboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drawplant/drawplant.iml" filepath="$PROJECT_DIR$/drawplant/drawplant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/finaldesign/finaldesign.iml" filepath="$PROJECT_DIR$/finaldesign/finaldesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fingerpaint/fingerpaint.iml" filepath="$PROJECT_DIR$/fingerpaint/fingerpaint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/touchvg/touchvg.iml" filepath="$PROJECT_DIR$/touchvg/touchvg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vgandroid/vgandroid.iml" filepath="$PROJECT_DIR$/vgandroid/vgandroid.iml" />
+    </modules>
+  </component>
+</project>

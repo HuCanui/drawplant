@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="40px"
+    android:id = "@+id/drawtop"
+    android:layout_gravity="center"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/drawupbar"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">           
+    <ImageButton
+        android:id ="@+id/drawbackbtn"
+        android:layout_width="60px"
+        android:layout_height="40px"   
+        android:background="@drawable/drawbackbtnx">
+    </ImageButton>
+    <ImageView
+        android:id ="@+id/drawundobtn"
+        android:layout_width="60px"
+        android:layout_height="40px" 
+        android:layout_toRightOf="@id/drawbackbtn" 
+        android:background="@drawable/drawundobtn">
+    </ImageView>
+    <ImageView
+        android:id ="@+id/drawredobtn"
+        android:layout_width="60px"
+        android:layout_height="40px" 
+        android:layout_toRightOf="@id/drawundobtn"       
+        android:background="@drawable/drawredobtn">
+    </ImageView>
+    <ImageButton
+        android:id ="@+id/drawsavebtn"
+        android:layout_width="60px"
+        android:layout_height="40px" 
+        android:layout_toRightOf="@id/drawredobtn" 
+        android:background="@drawable/drawsavex">
+    </ImageButton>  
+    <ImageButton
+        android:id ="@+id/drawvisiblebtn"
+        android:layout_width="60px"
+	    android:layout_height="40px"
+	    android:layout_alignParentRight="true"
+	    android:background="@drawable/drawvisiblebtn">
+    </ImageButton>
+    </RelativeLayout>
+</LinearLayout>

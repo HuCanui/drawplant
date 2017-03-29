@@ -1,0 +1,364 @@
+ <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:id = "@+id/markerlist"
+	        android:layout_gravity="bottom">
+
+			  <LinearLayout
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:paddingBottom="4dp"
+			    android:orientation="horizontal">
+			    
+			      <ImageView
+				  android:id="@+id/marker01"
+				  android:layout_width="41dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker01"></ImageView>
+			      
+				  <ImageView
+				  android:id="@+id/marker02"
+				  android:layout_width="35dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker02"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker03"
+				  android:layout_width="34dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker03"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker04"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker04"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker05"
+				  android:layout_width="37dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker05"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker06"
+				  android:layout_width="35dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker06"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker07"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker07"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker08"
+				  android:layout_width="35dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker08"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/marker09"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker09"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/marker10"
+				  android:layout_width="35dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker10"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/marker11"
+				  android:layout_width="34dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker11"></ImageView>
+			      
+				  <ImageView
+				  android:id="@+id/marker12"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker12"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker13"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker13"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker14"
+				  android:layout_width="35dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker14"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker15"
+				  android:layout_width="35dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker15"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker16"
+				  android:layout_width="35dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker16"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker17"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker17"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker18"
+				  android:layout_width="37dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker18"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/marker19"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker19"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/marker20"
+				  android:layout_width="37dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker20"></ImageView>
+	
+				  <ImageView
+				  android:id="@+id/marker21"
+				  android:layout_width="35dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker21"></ImageView>
+			      
+				  <ImageView
+				  android:id="@+id/marker22"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker22"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker23"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker23"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker24"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker24"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker25"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker25"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker26"
+				  android:layout_width="35dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker26"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker27"
+				  android:layout_width="37dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker27"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker28"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker28"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/marker29"
+				  android:layout_width="35dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker29"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/marker30"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker30"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/marker31"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker31"></ImageView>
+			      
+				  <ImageView
+				  android:id="@+id/marker32"
+				  android:layout_width="35dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker32"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker33"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker33"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker34"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker34"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker35"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker35"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker36"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker36"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker37"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker37"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker38"
+				  android:layout_width="34dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker38"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/marker39"
+				  android:layout_width="38dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker39"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/marker40"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker40"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/marker41"
+				  android:layout_width="37dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker41"></ImageView>
+			      
+				  <ImageView
+				  android:id="@+id/marker42"
+				  android:layout_width="35dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker42"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker43"
+				  android:layout_width="35dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker43"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker44"
+				  android:layout_width="35dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker44"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker45"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker45"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker46"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker46"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker47"
+				  android:layout_width="35dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker47"></ImageView>
+				
+				  <ImageView
+				  android:id="@+id/marker48"
+				  android:layout_width="36dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker48"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/marker49"
+				  android:layout_width="35dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker49"></ImageView>
+				  
+				  <ImageView
+				  android:id="@+id/marker50"
+				  android:layout_width="47dp"
+				  android:layout_height="150dp"
+				  android:scrollY="-30px"
+				  android:src="@drawable/marker50"></ImageView>
+	        </LinearLayout>
+         </HorizontalScrollView>
+ 
